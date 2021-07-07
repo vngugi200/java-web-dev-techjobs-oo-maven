@@ -8,7 +8,6 @@ public class CoreCompetency {
     private int id;
     private String value;
 
-    // Paul TODO: this should be private? does the assignment ask them to use this one ever?
     public CoreCompetency() {
         this.id = nextId;
         nextId++;

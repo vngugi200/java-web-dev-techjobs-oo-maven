@@ -5,10 +5,9 @@ import java.util.Objects;
 public class Employer {
     private static int nextId = 1;
 
-    private int id;
+    private final int id;
     private String value;
 
-    // Paul TODO: this should be private? does the assignment ask them to use this one ever?
     public Employer() {
         id = nextId;
         nextId++;
