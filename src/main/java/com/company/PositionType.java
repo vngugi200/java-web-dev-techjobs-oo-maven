@@ -1,4 +1,14 @@
 package com.company;
+import javax.management.StringValueExp;
+import java.util.Objects;
+public class PositionType extends JobField {
+    public PositionType(String value) {
+        super(value);
+    }
+}
+
+
+/*package com.company;
 
 public class PositionType {
     private static int nextId = 1;
@@ -27,4 +37,4 @@ public class PositionType {
     public String getValue() { return this.value; }
 
     public void setValue(String value) { this.value = value; }
-}
+}*/

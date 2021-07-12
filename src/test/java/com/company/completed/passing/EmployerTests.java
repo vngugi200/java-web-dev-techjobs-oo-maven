@@ -1,4 +1,4 @@
-package com.company.completed.passing;
+/*package com.company.completed.passing;
 
 import com.company.Employer;
 import org.junit.jupiter.api.Assertions;
@@ -32,4 +32,4 @@ public class EmployerTests {
     public void testNotEquals() {
         Assertions.assertFalse(noArgEmployer.equals(oneArgEmployer));
     }
-}
+}*/
